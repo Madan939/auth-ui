@@ -15,7 +15,7 @@ export default function SignupPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1">
               <Image src="/chatboq-logo.svg" alt="Chatboq" width={40} height={50} />
-              <span className="text-4xl font-bold tracking-tight text-gray-900">Chatboq</span>
+              <span className="text-4xl font-bold tracking-tight text-purple-600">Chatboq</span>
             </div>
             <div className="inline-flex items-center gap-2 rounded-full bg-purple-50 px-3 py-1 text-xs font-medium text-purple-600 border border-purple-200">
               <Sparkles className="h-3 w-3" />
@@ -70,7 +70,7 @@ export default function SignupPage() {
         {/* Mobile Logo */}
         <div className="flex items-center gap-2 mb-10 lg:hidden">
           <Image src="/chatboq-logo.svg" alt="Chatboq" width={32} height={40} />
-          <span className="text-xl font-bold text-foreground">Chatboq</span>
+          <span className="text-xl font-bold text-purple-600">Chatboq</span>
         </div>
         
         <SignupForm />

@@ -6,6 +6,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex">
       {/* Left Side - Premium Branding */}
+      
       <div className="hidden lg:flex lg:w-[55%] bg-white relative overflow-hidden border-r border-gray-100">
         {/* Subtle accent element */}
         <div className="absolute -bottom-32 -left-32 h-[500px] w-[500px] rounded-full bg-purple-100 blur-[100px]" />
@@ -15,7 +16,7 @@ export default function LoginPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1">
               <Image src="/chatboq-logo.svg" alt="Chatboq" width={40} height={50} />
-              <span className="text-4xl font-bold tracking-tight text-gray-900">Chatboq</span>
+              <span className="text-4xl font-bold tracking-tight text-purple-600">Chatboq</span>
             </div>
             <div className="inline-flex items-center gap-2 rounded-full bg-purple-50 px-3 py-1 text-xs font-medium text-purple-600 border border-purple-200">
               <Zap className="h-3 w-3" />
@@ -69,7 +70,7 @@ export default function LoginPage() {
         {/* Mobile Logo */}
         <div className="flex items-center gap-1 mb-10 lg:hidden">
           <Image src="/chatboq-logo.svg" alt="Chatboq" width={32} height={40} />
-          <span className="text-2xl font-bold text-foreground">Chatboq</span>
+          <span className="text-2xl font-bold text-purple-600">Chatboq</span>
         </div>
         
         <LoginForm />
